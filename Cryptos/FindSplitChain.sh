@@ -4,7 +4,7 @@ min() {
     printf "%s\n" "${@:2}" | sort "$1" | head -n1
 }
 
-CLI="/usr/local/bin/blastx-cli -conf=/home/miner/.blastx01/blastx.conf"
+CLI="/usr/local/bin/blastx-cli -conf=/home/miner/.blastx03/blastx.conf"
 CLI_GETBLOCKHASH="${CLI} getblockhash"
 CLI_GETBLOCKCOUNT="${CLI} getblockcount"
 
